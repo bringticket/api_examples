@@ -8,7 +8,7 @@ function generate_mac($endpoint, $unixTimestamp, $payload, $privateKey, $algo = 
 	return hash_hmac($algo, $unhashed, $privateKey);
 }
 
-function send_request($apiToken, $apiSecret, $endpoint, $payload = "", $method = "POST", $testSystem=false) {
+function send_request($apiToken, $apiSecret, $endpoint, $payload = "", $method = "POST", $testSystem = false) {
 	$timestamp = time();
 
 	// generate mac with your API secret
