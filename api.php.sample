@@ -1,0 +1,8 @@
+<?php
+
+return [
+	"apiToken" => "your_api_token",
+	"apiSecret" => "your_api_secret"
+];
+
+?>
