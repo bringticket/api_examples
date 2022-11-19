@@ -10,5 +10,5 @@ $apiCreds = include("api.php");
 $orderId = 30233;
 
 // send request
-send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/ticket/order/status?orderId=".$orderId, "", "GET", true);
+send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/ticket/order/status?orderId=".$orderId, "", "GET", $apiCreds["testSystem"]);
 ?>

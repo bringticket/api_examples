@@ -10,5 +10,5 @@ $apiCreds = include("api.php");
 $eventId = 20;
 
 // send request
-send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/event/categories?eventId=".$eventId, "", "GET", true);
+send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/event/categories?eventId=".$eventId, "", "GET", $apiCreds["testSystem"]);
 ?>

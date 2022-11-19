@@ -2,7 +2,8 @@
 
 return [
 	"apiToken" => "your_api_token",
-	"apiSecret" => "your_api_secret"
+	"apiSecret" => "your_api_secret",
+	"testSystem" => true
 ];
 
 ?>

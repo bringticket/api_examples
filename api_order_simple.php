@@ -18,5 +18,5 @@ $data = array(
 $payload = json_encode($data);
 
 // send request
-send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/ticket/order", $payload, "POST", true);
+send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/ticket/order", $payload, "POST", $apiCreds["testSystem"]);
 ?>

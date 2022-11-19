@@ -14,5 +14,5 @@ $data = array(
 $payload = json_encode($data);
 
 // send request
-send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/order/cancel", $payload, "DELETE", true);
+send_request($apiCreds["apiToken"], $apiCreds["apiSecret"], "/v1/order/cancel", $payload, "DELETE", $apiCreds["testSystem"]);
 ?>
