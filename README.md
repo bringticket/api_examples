@@ -5,17 +5,18 @@ To start copy "api.php.sample" to "api.php" and enter your API Token and Secret
 
 All necessary functions to make a valid request can be found in "misc.php". 
 
-### Files overview
+### Overview
 
 |File                    |Purpose                                       |
 |:-----------------------|:---------------------------------------------|
 |api_get_events.php      | Returns a all events assigned to this account|
 |api_get_cats.php        | Returns a all ticket categories for a event  |
 |api_get_order.php       | Returns order status                |
-|api_order_cancel.php    | cancel ticket orders |
-|api_order_simple.php    | Create ticket order|
-|api_order_pers.php      | Create personalised ticket order |
+|api_order_cancel.php    | Cancel ticket orders |
+|~~api_order_simple.php~~    | Create ticket order [DEPRECATED] |
+|~~api_order_pers.php~~      | Create personalised ticket order [DEPRECATED] |
 |misc.php                | Basic request function  |
+|example_validate_message.php    | Example of how to verify a webhook message  |
 
 ## HTTP Headers
 

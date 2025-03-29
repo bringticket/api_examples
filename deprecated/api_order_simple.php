@@ -4,8 +4,8 @@
  * URL: https://developer.bringticket.com/#tag/Ticket-order/paths/~1v1~1ticket~1order/post
  */
 
-include("misc.php");
-$apiCreds = include("api.php");
+include("../misc.php");
+$apiCreds = include("../api.php");
 
 // define payload
 $data = array(
